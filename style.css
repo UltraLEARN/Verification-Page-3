@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;padding: 2;
+    font-family: montressat;
+    color: black;
+  }
+  
+  .column1, .column2 {
+    float: left;
+    width: 50%;
+    min-height: 500px;
+    flex: 50%;
+    height: auto; 
+  }
+  .header{
+     font-weight: 700;
+     font-size: 2.5vw;
+  }
+  .tick{
+
+    background-color: #5F0F40;
+    border-radius: 2.4vw;
+  width: 5vw;margin-top: 8vw;}
+  .logo{
+    width:15vw;
+    padding: 0%;
+    margin-top: -4vw;
+    margin-left: -3vw;
+    margin-right: -6vw;
+    float: left;
+  }
+  .column2{
+    padding: 2%;
+  }
+  .toptext{
+    font-weight: 700;
+    padding:16px;
+  }
+  .text{
+    font-weight: 400;
+    padding: inherit;
+}
+  
+  .column1{
+      background-color: rgba(95, 15, 64, 0.03)
+  
+  
+  }
+  .column2{
+    text-align: center;
+  }
+  
+  input::placeholder{
+    color:black;
+    border-color: transparent;
+    font-style: italic;
+    opacity: 3; 
+  }
+  
+  .btn{
+
+    background-color: 
+    #5F0F40;
+    color: white;
+    /* text-align: center; */
+  font-size: 1vw;padding-left: 10vw;padding-right: 10vw;padding-top: .7vw;padding-bottom: .7vw;border-radius: 1.2vw;/* width: 400vw; */box-sizing: border-box;/* height: 4vw; */}
+
+  .greytext{
+    color: #747474;
+  }
+
+
+.text{
+    width:9%;
+    height:50px;
+    font-size: 30px;
+    border-radius:10px;
+    border-style: none;
+    background-color: 
+    #E7DCFF;
+    text-align: center;
+    margin-right:20px;
+    margin-top:10px;
+}
+span{
+    color: rgb(131, 8, 131);
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    color:white;
+}
+  
+  .topright{
+    padding-bottom: 7vw;
+    margin-bottom: 5;
+  }
+  
+  .topright p{
+  color: black;
+  padding-bottom: 15vw;
+font-size: 1vw;font-weight: 400;}
+  
+  .centreright{
+    height: 15vw;
+    padding-top: 3px;
+  }
+  
+  .topleft h2, img{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: auto; */
+    width: 70%;
+    padding: 2%;
+    height: 70%; 
+  }
+  
+  .form{
+    height: 20vw;
+  }
+  
+  .innerform{
+    height: 5vw;
+  }
+  
+  /* Responsive layout - when the screen is less than 768px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+  .column1, .column2 {
+      width: 100%;
+      height: 100%;
+      
+  }
+  .logo{
+    width: auto;
+    margin-right:;
+    
+  }
+  .toptext{
+    padding-top: 9vw;
+  }
+  input[type="text"] {
+    width: 8vw;
+  }
+  .tick{
+    width: 9vw;
+  border-radius: 4vw;}
+  
+  }
