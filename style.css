@@ -64,7 +64,13 @@
     #5F0F40;
     color: white;
     /* text-align: center; */
-  font-size: 1vw;padding-left: 10vw;padding-right: 10vw;padding-top: .7vw;padding-bottom: .7vw;border-radius: 1.2vw;/* width: 400vw; */box-sizing: border-box;/* height: 4vw; */}
+  font-size: 1vw;padding-left: 10vw;padding-right: 10vw;padding-top: .7vw;padding-bottom: .7vw;
+        width: 70%;
+  box-sizing: border-box;
+  height: 50px
+      /* width: 400vw; */
+      box-sizing: border-box;
+      /* height: 4vw; */}
 
   .greytext{
     color: #747474;
