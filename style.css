@@ -20,8 +20,9 @@
   .tick{
 
     background-color: #5F0F40;
-    border-radius: 2.4vw;
-  width: 5vw;margin-top: 8vw;}
+          border-radius: 69px;
+    padding: 9px;
+      ;margin-top: 8vw;}
   .logo{
     width:15vw;
     padding: 0%;
