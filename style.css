@@ -60,17 +60,13 @@
   
   .btn{
 
-    background-color: 
-    #5F0F40;
-    color: white;
-    /* text-align: center; */
-  font-size: 1vw;padding-left: 10vw;padding-right: 10vw;padding-top: .7vw;padding-bottom: .7vw;
-        width: 70%;
-  box-sizing: border-box;
-  height: 50px
-      /* width: 400vw; */
-      box-sizing: border-box;
-      /* height: 4vw; */}
+    height: 50px;
+  width: 70%;
+  background-color: 
+  #5F0F40;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
 
   .greytext{
     color: #747474;
